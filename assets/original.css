@@ -4,7 +4,7 @@ body {
   padding: 20px;
   max-width: 720px;
   text-align: left;
-  background-color: #1d1f27;
+  background-color: black;
   word-wrap: break-word;
   overflow-wrap: break-word;
   line-height: 1.5;
@@ -37,6 +37,13 @@ a {
 
 .title span {
   font-weight: 400;
+}
+
+.title div {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 19.92px 0 19.92px 0;
 }
 
 nav a {
@@ -151,6 +158,11 @@ h3.blog-filter {
 
 p.byline {
   font-style: italic;
+}
+
+.white-link {
+  color: white;
+  text-decoration: none;
 }
 
 /* "Skip to main content" link */

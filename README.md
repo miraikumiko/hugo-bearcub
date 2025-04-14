@@ -167,6 +167,9 @@ enableRobotsTXT = true
     # to people with poor eyesight. For more information about color contrast
     # and accessibility, see https://web.dev/color-and-contrast-accessibility/
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # Multilingual mode config. More for information about how to setup translation,
 # see https://gohugo.io/content-management/multilingual/
@@ -224,18 +227,15 @@ enableRobotsTXT = true
   # information see layouts/partials/social_card.html
   generateSocialCard = true
 
-  # Social media. Delete any item you aren't using to make sure it won't show up
-  # in your website's metadata.
-  [params.social]
-    twitter = "example" # Twitter handle (without '@')
-    facebook_admin = "0000000000" # Facebook Page Admin ID
-
   # Author metadata. This is mostly used for the RSS feed of your site, but the
   # email is also added to the footer of each post. You can hide the "reply to"
   # link by using a `hideReply` param in front matter.
   [params.author]
     name = "John Doe" # Your name as shown in the RSS feed metadata
     email = "me@example.com" # Added to the footer so readers can reply to posts
+  [params.links]
+  	email = "mailto:username@example.com"
+    github = "https://github.com/username"
 ```
 
 ## Contributing
