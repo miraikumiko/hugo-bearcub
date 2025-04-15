@@ -234,7 +234,7 @@ enableRobotsTXT = true
     name = "John Doe" # Your name as shown in the RSS feed metadata
     email = "me@example.com" # Added to the footer so readers can reply to posts
   [params.links]
-  	email = "mailto:username@example.com"
+    email = "mailto:username@example.com"
     github = "https://github.com/username"
 ```
 
